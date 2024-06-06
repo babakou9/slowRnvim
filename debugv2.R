@@ -22,4 +22,8 @@ if (!train) {
       st_transform(2154)
     OccSL_L93$Nuit <- date_pred
 
+a  <- Sys.time()
+test <- list()
+b <- Sys.time()
 
+print(b-a)
